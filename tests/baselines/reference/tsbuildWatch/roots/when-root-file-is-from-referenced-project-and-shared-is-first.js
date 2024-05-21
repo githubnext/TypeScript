@@ -537,6 +537,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/shared/tsconfig.json"
 }
 Program structureReused: Not
@@ -578,6 +579,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/server/tsconfig.json"
 }
 Program structureReused: Not
@@ -1001,6 +1003,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/shared/tsconfig.json"
 }
 Program structureReused: Not
@@ -1036,6 +1039,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/server/tsconfig.json"
 }
 Program structureReused: Not
@@ -1423,6 +1427,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/shared/tsconfig.json"
 }
 Program structureReused: Not
@@ -1454,6 +1459,7 @@ Program options: {
   "watch": true,
   "explainFiles": true,
   "traceResolution": true,
+  "tscBuild": true,
   "configFilePath": "/home/src/workspaces/projects/server/tsconfig.json"
 }
 Program structureReused: Not

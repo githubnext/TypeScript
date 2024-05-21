@@ -98,6 +98,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -131,6 +132,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -434,6 +436,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -496,6 +499,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -521,6 +525,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -693,6 +698,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": false,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -716,6 +722,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": false,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1036,6 +1043,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1092,6 +1100,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": false,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1154,6 +1163,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": false,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1179,6 +1189,7 @@ Program options: {
   "incremental": true,
   "declaration": true,
   "emitDeclarationOnly": false,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not

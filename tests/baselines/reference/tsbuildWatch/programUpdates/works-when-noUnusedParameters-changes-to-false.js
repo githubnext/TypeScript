@@ -71,6 +71,7 @@ Program root files: [
 Program options: {
   "noUnusedParameters": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/tsconfig.json"
 }
 Program structureReused: Not
@@ -119,6 +120,15 @@ Output::
 var fn = function (a, b) { return b; };
 
 
+//// [/user/username/projects/myproject/tsconfig.tsbuildinfo]
+{"version":"FakeTSVersion"}
+
+//// [/user/username/projects/myproject/tsconfig.tsbuildinfo.readable.baseline.txt]
+{
+  "version": "FakeTSVersion",
+  "size": 27
+}
+
 
 
 Program root files: [
@@ -127,6 +137,7 @@ Program root files: [
 Program options: {
   "noUnusedParameters": false,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/tsconfig.json"
 }
 Program structureReused: Not

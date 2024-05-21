@@ -56,6 +56,7 @@ import {
     HostForComputeHash,
     isArray,
     isDeclarationFileName,
+    isIncrementalCompilation,
     isJsonSourceFile,
     isNumber,
     isString,
@@ -348,7 +349,7 @@ function createBuilderProgramState(newProgram: Program, oldState: Readonly<Reusa
     }
     else {
         // We arent using old state, so atleast emit buildInfo with current information
-        state.buildInfoEmitPending = true;
+        state.buildInfoEmitPending = isIncrementalCompilation(compilerOptions);
     }
 
     // Update changed files and copy semantic diagnostics if we can
@@ -1085,6 +1086,10 @@ function getBuildInfo(state: BuilderProgramState): BuildInfo {
     const fileNames: string[] = [];
     const fileNameToFileId = new Map<string, ProgramBuildInfoFileId>();
     const rootFileNames = new Set(state.program!.getRootFileNames().map(f => toPath(f, currentDirectory, state.program!.getCanonicalFileName)));
+
+    // TODO:: actual non incremental needed information
+    if (!isIncrementalCompilation(state.compilerOptions)) return createBuildInfo(/*program*/ undefined);
+
     const root: ProgramBuildInfoRoot[] = [];
     if (state.compilerOptions.outFile) {
         // Copy all fileInfo, version and impliedFormat

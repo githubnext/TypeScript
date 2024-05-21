@@ -111,7 +111,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/a/b/project2.tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is out of date because output file 'other2.js' does not exist
+[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is out of date because output file 'project3.tsconfig.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/a/b/project3.tsconfig.json'...
 
@@ -275,6 +275,15 @@ declare let z: number;
 var k = 0;
 
 
+//// [/a/b/project3.tsconfig.tsbuildinfo]
+{"version":"FakeTSVersion"}
+
+//// [/a/b/project3.tsconfig.tsbuildinfo.readable.baseline.txt]
+{
+  "version": "FakeTSVersion",
+  "size": 27
+}
+
 
 PolledWatches::
 /a/b/package.json: *new*
@@ -319,6 +328,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project1.tsconfig.json"
 }
 Program structureReused: Not
@@ -343,6 +353,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not
@@ -366,6 +377,7 @@ Program options: {
   "strictNullChecks": false,
   "noImplicitAny": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project3.tsconfig.json"
 }
 Program structureReused: Not
@@ -509,6 +521,7 @@ Program options: {
   "strict": true,
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project1.tsconfig.json"
 }
 Program structureReused: Not
@@ -614,6 +627,7 @@ Program options: {
   "strict": true,
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not
@@ -730,6 +744,7 @@ Program options: {
   "strict": false,
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not
@@ -780,6 +795,15 @@ Output::
 "use strict";
 var z = 0;
 
+
+//// [/a/b/project2.tsconfig.tsbuildinfo]
+{"version":"FakeTSVersion"}
+
+//// [/a/b/project2.tsconfig.tsbuildinfo.readable.baseline.txt]
+{
+  "version": "FakeTSVersion",
+  "size": 27
+}
 
 //// [/a/b/other2.js]
 "use strict";
@@ -839,6 +863,7 @@ Program root files: [
 Program options: {
   "strict": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not
@@ -982,6 +1007,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project1.tsconfig.json"
 }
 Program structureReused: Not
@@ -1023,6 +1049,8 @@ Output::
 var z = 0;
 
 
+//// [/a/b/project2.tsconfig.tsbuildinfo] file written with same contents
+//// [/a/b/project2.tsconfig.tsbuildinfo.readable.baseline.txt] file written with same contents
 //// [/a/b/other2.js]
 var k = 0;
 
@@ -1037,6 +1065,7 @@ Program root files: [
 ]
 Program options: {
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not
@@ -1092,6 +1121,7 @@ Output::
 
 
 //// [/a/b/other2.js] file changed its modified time
+//// [/a/b/project3.tsconfig.tsbuildinfo] file changed its modified time
 
 
 Program root files: [
@@ -1102,6 +1132,7 @@ Program options: {
   "strictNullChecks": true,
   "noImplicitAny": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project3.tsconfig.json"
 }
 Program structureReused: Not
@@ -1147,7 +1178,7 @@ Output::
 >> Screen clear
 [[90mHH:MM:SS AM[0m] File change detected. Starting incremental compilation...
 
-[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is out of date because output 'other2.js' is older than input 'project3.tsconfig.json'
+[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is out of date because output 'project3.tsconfig.tsbuildinfo' is older than input 'project3.tsconfig.json'
 
 [[90mHH:MM:SS AM[0m] Building project '/a/b/project3.tsconfig.json'...
 
@@ -1158,6 +1189,7 @@ Output::
 
 
 //// [/a/b/other2.js] file changed its modified time
+//// [/a/b/project3.tsconfig.tsbuildinfo] file changed its modified time
 
 PolledWatches::
 /a/b/package.json:
@@ -1207,6 +1239,7 @@ Program options: {
   "composite": false,
   "strictNullChecks": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project3.tsconfig.json"
 }
 Program structureReused: Not
@@ -1239,7 +1272,7 @@ Output::
 >> Screen clear
 [[90mHH:MM:SS AM[0m] File change detected. Starting incremental compilation...
 
-[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is up to date because newest input 'other2.ts' is older than output 'other2.js'
+[[90mHH:MM:SS AM[0m] Project 'project3.tsconfig.json' is up to date because newest input 'other2.ts' is older than output 'project3.tsconfig.tsbuildinfo'
 
 [91merror[0m[90m TS5083: [0mCannot read file '/a/b/extendsConfig2.tsconfig.json'.
 

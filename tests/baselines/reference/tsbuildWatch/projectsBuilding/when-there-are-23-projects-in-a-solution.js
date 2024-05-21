@@ -2242,6 +2242,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -2263,6 +2264,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg1/tsconfig.json"
 }
 Program structureReused: Not
@@ -2284,6 +2286,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg2/tsconfig.json"
 }
 Program structureReused: Not
@@ -2305,6 +2308,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg3/tsconfig.json"
 }
 Program structureReused: Not
@@ -2326,6 +2330,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg4/tsconfig.json"
 }
 Program structureReused: Not
@@ -2347,6 +2352,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg5/tsconfig.json"
 }
 Program structureReused: Not
@@ -2368,6 +2374,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg6/tsconfig.json"
 }
 Program structureReused: Not
@@ -2389,6 +2396,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg7/tsconfig.json"
 }
 Program structureReused: Not
@@ -2410,6 +2418,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg8/tsconfig.json"
 }
 Program structureReused: Not
@@ -2431,6 +2440,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg9/tsconfig.json"
 }
 Program structureReused: Not
@@ -2452,6 +2462,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg10/tsconfig.json"
 }
 Program structureReused: Not
@@ -2473,6 +2484,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg11/tsconfig.json"
 }
 Program structureReused: Not
@@ -2494,6 +2506,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg12/tsconfig.json"
 }
 Program structureReused: Not
@@ -2515,6 +2528,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg13/tsconfig.json"
 }
 Program structureReused: Not
@@ -2536,6 +2550,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg14/tsconfig.json"
 }
 Program structureReused: Not
@@ -2557,6 +2572,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg15/tsconfig.json"
 }
 Program structureReused: Not
@@ -2578,6 +2594,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg16/tsconfig.json"
 }
 Program structureReused: Not
@@ -2599,6 +2616,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg17/tsconfig.json"
 }
 Program structureReused: Not
@@ -2620,6 +2638,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg18/tsconfig.json"
 }
 Program structureReused: Not
@@ -2641,6 +2660,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg19/tsconfig.json"
 }
 Program structureReused: Not
@@ -2662,6 +2682,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg20/tsconfig.json"
 }
 Program structureReused: Not
@@ -2683,6 +2704,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg21/tsconfig.json"
 }
 Program structureReused: Not
@@ -2704,6 +2726,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg22/tsconfig.json"
 }
 Program structureReused: Not
@@ -2927,6 +2950,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -3052,6 +3076,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -3125,6 +3150,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg1/tsconfig.json"
 }
 Program structureReused: Not
@@ -3142,6 +3168,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg2/tsconfig.json"
 }
 Program structureReused: Not
@@ -3159,6 +3186,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg3/tsconfig.json"
 }
 Program structureReused: Not
@@ -3176,6 +3204,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg4/tsconfig.json"
 }
 Program structureReused: Not
@@ -3193,6 +3222,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg5/tsconfig.json"
 }
 Program structureReused: Not
@@ -3264,6 +3294,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg6/tsconfig.json"
 }
 Program structureReused: Not
@@ -3281,6 +3312,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg7/tsconfig.json"
 }
 Program structureReused: Not
@@ -3298,6 +3330,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg8/tsconfig.json"
 }
 Program structureReused: Not
@@ -3315,6 +3348,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg9/tsconfig.json"
 }
 Program structureReused: Not
@@ -3332,6 +3366,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg10/tsconfig.json"
 }
 Program structureReused: Not
@@ -3403,6 +3438,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg11/tsconfig.json"
 }
 Program structureReused: Not
@@ -3420,6 +3456,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg12/tsconfig.json"
 }
 Program structureReused: Not
@@ -3437,6 +3474,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg13/tsconfig.json"
 }
 Program structureReused: Not
@@ -3454,6 +3492,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg14/tsconfig.json"
 }
 Program structureReused: Not
@@ -3471,6 +3510,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg15/tsconfig.json"
 }
 Program structureReused: Not
@@ -3542,6 +3582,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg16/tsconfig.json"
 }
 Program structureReused: Not
@@ -3559,6 +3600,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg17/tsconfig.json"
 }
 Program structureReused: Not
@@ -3576,6 +3618,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg18/tsconfig.json"
 }
 Program structureReused: Not
@@ -3593,6 +3636,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg19/tsconfig.json"
 }
 Program structureReused: Not
@@ -3610,6 +3654,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg20/tsconfig.json"
 }
 Program structureReused: Not
@@ -3659,6 +3704,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg21/tsconfig.json"
 }
 Program structureReused: Not
@@ -3676,6 +3722,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg22/tsconfig.json"
 }
 Program structureReused: Not
@@ -3801,6 +3848,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -3874,6 +3922,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg1/tsconfig.json"
 }
 Program structureReused: Not
@@ -3891,6 +3940,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg2/tsconfig.json"
 }
 Program structureReused: Not
@@ -3908,6 +3958,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg3/tsconfig.json"
 }
 Program structureReused: Not
@@ -3925,6 +3976,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg4/tsconfig.json"
 }
 Program structureReused: Not
@@ -3942,6 +3994,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg5/tsconfig.json"
 }
 Program structureReused: Not
@@ -4013,6 +4066,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg6/tsconfig.json"
 }
 Program structureReused: Not
@@ -4030,6 +4084,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg7/tsconfig.json"
 }
 Program structureReused: Not
@@ -4047,6 +4102,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg8/tsconfig.json"
 }
 Program structureReused: Not
@@ -4064,6 +4120,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg9/tsconfig.json"
 }
 Program structureReused: Not
@@ -4081,6 +4138,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg10/tsconfig.json"
 }
 Program structureReused: Not
@@ -4245,6 +4303,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -4318,6 +4377,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg11/tsconfig.json"
 }
 Program structureReused: Not
@@ -4335,6 +4395,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg12/tsconfig.json"
 }
 Program structureReused: Not
@@ -4352,6 +4413,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg13/tsconfig.json"
 }
 Program structureReused: Not
@@ -4369,6 +4431,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg14/tsconfig.json"
 }
 Program structureReused: Not
@@ -4386,6 +4449,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg15/tsconfig.json"
 }
 Program structureReused: Not
@@ -4508,6 +4572,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg0/tsconfig.json"
 }
 Program structureReused: Not
@@ -4581,6 +4646,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg1/tsconfig.json"
 }
 Program structureReused: Not
@@ -4598,6 +4664,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg2/tsconfig.json"
 }
 Program structureReused: Not
@@ -4615,6 +4682,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg3/tsconfig.json"
 }
 Program structureReused: Not
@@ -4632,6 +4700,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg4/tsconfig.json"
 }
 Program structureReused: Not
@@ -4649,6 +4718,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg5/tsconfig.json"
 }
 Program structureReused: Not
@@ -4720,6 +4790,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg6/tsconfig.json"
 }
 Program structureReused: Not
@@ -4737,6 +4808,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg7/tsconfig.json"
 }
 Program structureReused: Not
@@ -4754,6 +4826,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg8/tsconfig.json"
 }
 Program structureReused: Not
@@ -4771,6 +4844,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg9/tsconfig.json"
 }
 Program structureReused: Not
@@ -4788,6 +4862,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg10/tsconfig.json"
 }
 Program structureReused: Not
@@ -4859,6 +4934,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg11/tsconfig.json"
 }
 Program structureReused: Not
@@ -4876,6 +4952,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg12/tsconfig.json"
 }
 Program structureReused: Not
@@ -4893,6 +4970,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg13/tsconfig.json"
 }
 Program structureReused: Not
@@ -4910,6 +4988,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg14/tsconfig.json"
 }
 Program structureReused: Not
@@ -4927,6 +5006,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg15/tsconfig.json"
 }
 Program structureReused: Not
@@ -4998,6 +5078,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg16/tsconfig.json"
 }
 Program structureReused: Not
@@ -5015,6 +5096,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg17/tsconfig.json"
 }
 Program structureReused: Not
@@ -5032,6 +5114,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg18/tsconfig.json"
 }
 Program structureReused: Not
@@ -5049,6 +5132,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg19/tsconfig.json"
 }
 Program structureReused: Not
@@ -5066,6 +5150,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg20/tsconfig.json"
 }
 Program structureReused: Not
@@ -5115,6 +5200,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg21/tsconfig.json"
 }
 Program structureReused: Not
@@ -5132,6 +5218,7 @@ Program root files: [
 Program options: {
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/pkg22/tsconfig.json"
 }
 Program structureReused: Not

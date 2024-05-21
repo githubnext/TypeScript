@@ -289,6 +289,7 @@ Program options: {
   "strict": true,
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project1.tsconfig.json"
 }
 Program structureReused: Not
@@ -314,6 +315,7 @@ Program options: {
   "strict": true,
   "composite": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/a/b/project2.tsconfig.json"
 }
 Program structureReused: Not

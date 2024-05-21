@@ -83,6 +83,7 @@ Program options: {
   "allowJs": true,
   "noEmit": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/tsconfig.json"
 }
 Program structureReused: Not
@@ -138,6 +139,7 @@ Program options: {
   "allowJs": true,
   "noEmit": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/tsconfig.json"
 }
 Program structureReused: Not
@@ -189,6 +191,7 @@ Program options: {
   "allowJs": true,
   "noEmit": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/tsconfig.json"
 }
 Program structureReused: Not

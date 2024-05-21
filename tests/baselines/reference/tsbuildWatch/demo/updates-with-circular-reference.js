@@ -661,6 +661,7 @@ Program options: {
   "outDir": "/user/username/projects/demo/lib/core",
   "rootDir": "/user/username/projects/demo/core",
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/demo/core/tsconfig.json"
 }
 Program structureReused: Not
@@ -694,6 +695,7 @@ Program options: {
   "outDir": "/user/username/projects/demo/lib/animals",
   "rootDir": "/user/username/projects/demo/animals",
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/demo/animals/tsconfig.json"
 }
 Program structureReused: Not
@@ -734,6 +736,7 @@ Program options: {
   "outDir": "/user/username/projects/demo/lib/zoo",
   "rootDir": "/user/username/projects/demo/zoo",
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/demo/zoo/tsconfig.json"
 }
 Program structureReused: Not

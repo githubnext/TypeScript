@@ -305,6 +305,7 @@ Program root files: [
 ]
 Program options: {
   "composite": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/shared/tsconfig.json"
 }
 Program structureReused: Not
@@ -325,6 +326,7 @@ Program root files: [
 ]
 Program options: {
   "composite": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/webpack/tsconfig.json"
 }
 Program structureReused: Not
@@ -489,6 +491,7 @@ Program root files: [
 ]
 Program options: {
   "composite": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/shared/tsconfig.json"
 }
 Program structureReused: Not
@@ -507,6 +510,7 @@ Program root files: [
 ]
 Program options: {
   "composite": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/myproject/webpack/tsconfig.json"
 }
 Program structureReused: Not

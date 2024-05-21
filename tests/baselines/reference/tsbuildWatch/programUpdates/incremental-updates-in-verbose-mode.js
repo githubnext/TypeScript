@@ -534,6 +534,7 @@ Program options: {
   "declarationMap": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/core/tsconfig.json"
 }
 Program structureReused: Not
@@ -565,6 +566,7 @@ Program options: {
   "forceConsistentCasingInFileNames": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/logic/tsconfig.json"
 }
 Program structureReused: Not
@@ -595,6 +597,7 @@ Program options: {
   "forceConsistentCasingInFileNames": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/tests/tsconfig.json"
 }
 Program structureReused: Not
@@ -778,6 +781,7 @@ Program options: {
   "forceConsistentCasingInFileNames": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/logic/tsconfig.json"
 }
 Program structureReused: Not
@@ -1079,6 +1083,7 @@ Program options: {
   "forceConsistentCasingInFileNames": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/logic/tsconfig.json"
 }
 Program structureReused: Not
@@ -1103,6 +1108,7 @@ Program options: {
   "forceConsistentCasingInFileNames": true,
   "skipDefaultLibCheck": true,
   "watch": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/sample1/tests/tsconfig.json"
 }
 Program structureReused: Not

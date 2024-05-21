@@ -62,6 +62,7 @@ Program root files: [
 Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not
@@ -101,6 +102,7 @@ Program root files: [
 Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not
@@ -138,6 +140,7 @@ Program root files: [
 Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not
@@ -178,6 +181,15 @@ var a = {
 Object.defineProperty(exports, "__esModule", { value: true });
 console.log("hi");
 
+
+//// [/user/username/projects/noEmitOnError/dev-build/tsconfig.tsbuildinfo]
+{"version":"FakeTSVersion"}
+
+//// [/user/username/projects/noEmitOnError/dev-build/tsconfig.tsbuildinfo.readable.baseline.txt]
+{
+  "version": "FakeTSVersion",
+  "size": 27
+}
 
 
 

@@ -102,6 +102,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -127,6 +128,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -279,6 +281,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -342,6 +345,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -367,6 +371,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -511,6 +516,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -536,6 +542,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -691,6 +698,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -715,6 +723,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -882,6 +891,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -944,6 +954,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -968,6 +979,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1143,6 +1155,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1168,6 +1181,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1312,6 +1326,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1337,6 +1352,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1496,6 +1512,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1520,6 +1537,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not

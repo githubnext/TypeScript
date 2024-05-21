@@ -8,6 +8,7 @@ import {
     AsExpression,
     BuilderProgram,
     CancellationToken,
+    canEmitTsBuildInfo,
     canHaveDecorators,
     canHaveIllegalDecorators,
     chainDiagnosticMessages,
@@ -195,7 +196,6 @@ import {
     isImportEqualsDeclaration,
     isImportSpecifier,
     isImportTypeNode,
-    isIncrementalCompilation,
     isInJSFile,
     isJSDocImportTag,
     isLiteralImportTypeNode,
@@ -4299,7 +4299,7 @@ export function createProgram(rootNamesOrOptions: readonly string[] | CreateProg
 
         const outputFile = options.outFile;
         if (options.tsBuildInfoFile) {
-            if (!isIncrementalCompilation(options)) {
+            if (!canEmitTsBuildInfo(options)) { // TODO:: sheetal : change message to include invoking tsc --b
                 createDiagnosticForOptionName(Diagnostics.Option_0_cannot_be_specified_without_specifying_option_1_or_option_2, "tsBuildInfoFile", "incremental", "composite");
             }
         }

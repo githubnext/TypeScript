@@ -60,6 +60,7 @@ Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
   "incremental": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not
@@ -224,6 +225,7 @@ Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
   "incremental": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not
@@ -260,6 +262,7 @@ Program options: {
   "outDir": "/user/username/projects/noEmitOnError/dev-build",
   "noEmitOnError": true,
   "incremental": true,
+  "tscBuild": true,
   "configFilePath": "/user/username/projects/noEmitOnError/tsconfig.json"
 }
 Program structureReused: Not

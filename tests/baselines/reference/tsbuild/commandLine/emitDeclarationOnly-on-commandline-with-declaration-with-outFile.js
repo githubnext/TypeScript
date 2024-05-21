@@ -67,11 +67,11 @@ Output::
     * src/project1/src/tsconfig.json
     * src/project2/src/tsconfig.json
 
-[[90mHH:MM:SS AM[0m] Project 'src/project1/src/tsconfig.json' is out of date because output file 'src/project1/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project1/src/tsconfig.json' is out of date because output file 'src/project1/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -99,6 +99,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -123,6 +124,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -153,6 +155,15 @@ declare module "d" {
 }
 
 
+//// [/src/project1/outFile.tsbuildinfo]
+{"version":"FakeTSVersion"}
+
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt]
+{
+  "version": "FakeTSVersion",
+  "size": 27
+}
+
 
 
 Change:: no-change-run
@@ -167,7 +178,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Project 'src/project1/src/tsconfig.json' is up to date because newest input 'src/project1/src/d.ts' is older than output 'src/project1/outFile.d.ts'
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -194,6 +205,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -228,7 +240,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -256,6 +268,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -280,6 +293,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -296,6 +310,8 @@ No shapes updated in the builder::
 
 
 //// [/src/project1/outFile.d.ts] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: non local change
@@ -315,7 +331,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -343,6 +359,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -367,6 +384,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -398,6 +416,8 @@ declare module "d" {
 }
 
 
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: emit js files
@@ -414,7 +434,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.js' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -441,6 +461,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -464,6 +485,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -511,6 +533,8 @@ define("d", ["require", "exports", "b"], function (require, exports, b_1) {
 });
 
 
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: no-change-run
@@ -525,7 +549,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Project 'src/project1/src/tsconfig.json' is up to date because newest input 'src/project1/src/a.ts' is older than output 'src/project1/outFile.d.ts'
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -552,6 +576,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -586,7 +611,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.js' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -613,6 +638,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -636,6 +662,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -684,6 +711,8 @@ define("d", ["require", "exports", "b"], function (require, exports, b_1) {
 });
 
 
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: local change
@@ -703,7 +732,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -731,6 +760,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -755,6 +785,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -771,6 +802,8 @@ No shapes updated in the builder::
 
 
 //// [/src/project1/outFile.d.ts] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: non local change
@@ -790,7 +823,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.d.ts' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -818,6 +851,7 @@ Program options: {
   "outFile": "/src/project1/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -842,6 +876,7 @@ Program options: {
   "outFile": "/src/project2/outFile.js",
   "module": 2,
   "emitDeclarationOnly": true,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -874,6 +909,8 @@ declare module "d" {
 }
 
 
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents
 
 
 Change:: js emit with change without emitDeclarationOnly
@@ -893,7 +930,7 @@ Output::
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project1/src/tsconfig.json'...
 
-[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.js' does not exist
+[[90mHH:MM:SS AM[0m] Project 'src/project2/src/tsconfig.json' is out of date because output file 'src/project2/outFile.tsbuildinfo' does not exist
 
 [[90mHH:MM:SS AM[0m] Building project '/src/project2/src/tsconfig.json'...
 
@@ -920,6 +957,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project1/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project1/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -943,6 +981,7 @@ Program options: {
   "declaration": true,
   "outFile": "/src/project2/outFile.js",
   "module": 2,
+  "tscBuild": true,
   "configFilePath": "/src/project2/src/tsconfig.json"
 }
 Program structureReused: Not
@@ -1011,3 +1050,5 @@ define("d", ["require", "exports", "b"], function (require, exports, b_1) {
 });
 
 
+//// [/src/project1/outFile.tsbuildinfo] file written with same contents
+//// [/src/project1/outFile.tsbuildinfo.readable.baseline.txt] file written with same contents

@@ -2049,7 +2049,11 @@ export function createProgram(rootNamesOrOptions: readonly string[] | CreateProg
 
     function resolveModuleNamesWorker(moduleNames: readonly StringLiteralLike[], containingFile: SourceFile, reusedNames: readonly StringLiteralLike[] | undefined): readonly ResolvedModuleWithFailedLookupLocations[] {
         if (!moduleNames.length) return emptyArray;
-        const containingFileName = getNormalizedAbsolutePath(containingFile.originalFileName, currentDirectory);
+        const cellPrefix = "^/vscode-notebook-cell/ts-nul-authority";
+        const containingFileName =  
+            containingFile.originalFileName.startsWith(cellPrefix) ?
+            containingFile.originalFileName.substring(cellPrefix.length) :
+            getNormalizedAbsolutePath(containingFile.originalFileName, currentDirectory);
         const redirectedReference = getRedirectReferenceForResolution(containingFile);
         tracing?.push(tracing.Phase.Program, "resolveModuleNamesWorker", { containingFileName });
         performance.mark("beforeResolveModule");

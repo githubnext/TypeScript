@@ -2231,7 +2231,8 @@ export class ProjectService {
         Debug.assert(!isOpenScriptInfo(info) || this.openFiles.has(info.path));
         const projectRootPath = this.openFiles.get(info.path);
         const scriptInfo = Debug.checkDefined(this.getScriptInfo(info.path));
-        if (scriptInfo.isDynamic) return undefined;
+        const cellPrefix = "^/vscode-notebook-cell/ts-nul-authority";
+        if (scriptInfo.isDynamic && !scriptInfo.fileName.startsWith(cellPrefix)) return undefined;
 
         let searchPath = asNormalizedPath(getDirectoryPath(info.fileName));
         const isSearchPathInProjectRoot = () => containsPath(projectRootPath!, searchPath, this.currentDirectory, !this.host.useCaseSensitiveFileNames);
@@ -2295,6 +2296,10 @@ export class ProjectService {
         if (!isAncestorConfigFileInfo(info)) {
             const result = this.configFileForOpenFiles.get(info.path);
             if (result !== undefined) return result || undefined;
+        }
+        const cellPrefix = "^/vscode-notebook-cell/ts-nul-authority";
+        if (info.fileName.startsWith(cellPrefix)) {
+            info = { ...info, fileName: info.fileName.slice(cellPrefix.length) } as any;
         }
         this.logger.info(`Search path: ${getDirectoryPath(info.fileName)}`);
         const configFileName = this.forEachConfigFileLocation(info, (canonicalConfigFilePath, configFileName) => this.configFileExists(configFileName, canonicalConfigFilePath, info));
